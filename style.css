@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(60deg, rgb(5, 5, 74), rgb(3, 74, 88));
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quoteBox{
+    width: 80%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+h2{font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    }
+
+.quotes{
+    font-size: 1.6rem;
+    font-style: italic;
+
+    margin-bottom: 1rem;
+}
+.btn{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(3, 74, 88);
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
